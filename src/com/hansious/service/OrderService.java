@@ -12,4 +12,7 @@ import com.hansious.spring.Component;
 @Component
 public class OrderService {
 
+    @Autowired
+    private UserService userService;
+
 }
